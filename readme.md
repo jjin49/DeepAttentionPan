@@ -12,17 +12,17 @@
 
 our final ensemble prediction model is stored in the "dup_0" folder, suppose now we want to output testing results of the final model in "dup_0".
 
-     1) In the file "dup_0/config.json", the "test_file" refers to the file name of the testing set. All the testing files also need to be stored in the folder "dataset". In the folder "dataset", the "testing_set.txt" is the testing set we used to compare our results with other IEDB benchmark algorithms. 
-     2) Back to the directory "codes". Run in the command line:
-     "python test.py dup_0/config.json". After the testing process finishing, the testing results will be output to "dup_0", which are "weekly_result.txt" in detail and "weekly_result_METRICS.txt" for final comparison results.
+1) In the file "dup_0/config.json", the "test_file" refers to the file name of the testing set. All the testing files also need to be stored in the folder "dataset". In the folder "dataset", the "testing_set.txt" is the testing set we used to compare our results with other IEDB benchmark algorithms. <br>
+2) Back to the directory "codes". Run in the command line:<br>
+   "python test.py dup_0/config.json". After the testing process finishing, the testing results will be output to "dup_0", which are "weekly_result.txt" in detail and "weekly_result_METRICS.txt" for final comparison results.
      
 ### Training: 
 
-     1) Build a new folder "dup_1" inside the folder 'codes'. "dup_1" will be the folder where the algorithm reads the file storing parameters and outputs the trained models. <br>
-     2) Copy the "config.json" in "codes/dup_0" to "dup_1". "config.json" is the file storing useful parameters and the source paths of input data.<br>
-     3) In the file "config.json", change the content of attribute "working_dir" to be "dup_1". You are free to change other parameters to test the effects. The "data_file" refers to the file name of the training set, e.g, "training_set.txt". All the data files should be stored in the folder "dataset".<br>
-     4) Back to the directory "codes". Run in the command line: <br>
-        "python train.py dup_1/config.json". After the training process finishing, the networks will be output to "dup_1".
+1) Build a new folder "dup_1" inside the folder 'codes'. "dup_1" will be the folder where the algorithm reads the file storing parameters and outputs the trained models. <br>
+2) Copy the "config.json" in "codes/dup_0" to "dup_1". "config.json" is the file storing useful parameters and the source paths of input data.<br>
+3) In the file "config.json", change the content of attribute "working_dir" to be "dup_1". You are free to change other parameters to test the effects. The "data_file" refers to the file name of the training set, e.g, "training_set.txt". All the data files should be stored in the folder "dataset".<br>
+4) Back to the directory "codes". Run in the command line: <br>
+   "python train.py dup_1/config.json". After the training process finishing, the networks will be output to "dup_1".
 
 ### binding position importance investigation using attention mechanism
 
