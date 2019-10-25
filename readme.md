@@ -18,8 +18,8 @@ e.g. 1) In the file "dup_0/config.json", the "test_file" refers to the file name
      
 ### Training: 
 
-e.g. 1) Build a new folder "dup_1" inside the folder 'codes'. "dup_1" will be the folder where the algorithm reads the file storing parameters and outputs the trained models.
-     2) Copy the "config.json" in "codes/dup_0" to "dup_1". "config.json" is the file storing useful parameters and the source paths of input data.
+e.g. 1) Build a new folder "dup_1" inside the folder 'codes'. "dup_1" will be the folder where the algorithm reads the file storing parameters and outputs the trained models. <br>
+     2) Copy the "config.json" in "codes/dup_0" to "dup_1". "config.json" is the file storing useful parameters and the source paths of input data.<br>
      3) In the file "config.json", change the content of attribute "working_dir" to be "dup_1". You are free to change other parameters to test the effects. The "data_file" refers to the file name of the training set, e.g, "training_set.txt". All the data files should be stored in the folder "dataset".
      4) Back to the directory "codes". Run in the command line: 
         "python train.py dup_1/config.json". After the training process finishing, the networks will be output to "dup_1".
