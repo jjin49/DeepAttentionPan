@@ -10,7 +10,7 @@
 
 ### Testing: 
 
-our final model of 20 networks are stored in the "dup_0", suppose now we want to output testing results of the final model in "dup_0".
+our final ensemble prediction model is stored in the "dup_0" folder, suppose now we want to output testing results of the final model in "dup_0".
 
 e.g. 1) In the file "dup_0/config.json", the "test_file" refers to the file name of the testing set. All the testing files also need to be stored in the folder "dataset". In the folder "dataset", the "testing_set.txt" is the testing set we used to compare our results with other IEDB benchmark algorithms. 
      2) Back to the directory "codes". Run in the command line:
