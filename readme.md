@@ -4,7 +4,7 @@
 
 - Usage: the codes can be used to train our models, output results on the testing set, output positional attention weights for chosen group of peptides.
 
-- Please download the full folder of "DeepAttentionPan_Code" to run the programs, or you may need to reset some routes.
+- Please download the full folder of "DeepAttentionPan_Code" to run the programs, or you may need to configure some directory paths.
 
 - Platform: Python 3.6, need to use GPU to train,test and ouput attention weights.
 
