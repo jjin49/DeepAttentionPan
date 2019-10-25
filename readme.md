@@ -2,7 +2,7 @@
 
 ### Deep learning prediction of MHC-I peptide binding with attention mechanism
 
-<img src="deepattentionpan.jpg" height="300px">
+<img src="deepattentpan.jpg" height="300px">
 
 - Usage: the codes can be used to train our models, output results on the testing set, output positional attention weights for chosen group of peptides.
 
