@@ -1,0 +1,27 @@
+{    
+    "do_train": true,
+    "do_test": true,
+    "Data": {
+        "data_file":"training_set.txt",
+        "test_file": "testing_set.txt",
+        "max_len_hla": 385,
+        "max_len_pep": 15
+    },
+    "Training": {
+        "epochs":100,
+        "start_lr":0.2,
+        "min_lr": 0.0001,
+        "grad_clip": 0.5,
+        "batch_size": 40,
+        "loss_delta": 0.0001
+    },
+    "Paths": {
+        "working_dir": "dup_0"
+    },
+    "Model": {
+    "encoding_method": "one_hot",
+	"encoding_method2":"blosum"
+    },
+    "model_count": 10,
+    "base_model_count" : 2
+}
