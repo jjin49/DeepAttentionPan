@@ -30,9 +30,6 @@ our final ensemble prediction model is stored in the "dup_0" folder, suppose now
 
 To output the attention weights of certain group of peptides,  you can also use the "att_weight.py" from the trained model(e.g. the model stored in the "dup_0").
 
-just run $python att_weight.py
-
-
-e.g. 1) In the "dup_0", change the "test_file" to the name of the file containing the group of the samples that you want to output the average positional attention weights. In the folder "dataset", "testing_9length.txt" contains all the samples with peptides of 9 length in the testing set. And "testing_10length.txt" and "testing_11length.txt" refer to the samples with peptides of 10 length and 11 length correspondently.  <br>
-     2) Back to the directory "codes". Run in command line:<br>
+1) In the "dup_0", change the "test_file" to the name of the file containing the group of the samples that you want to output the average positional attention weights. In the folder "dataset", "testing_9length.txt" contains all the samples with peptides of 9 length in the testing set. And "testing_10length.txt" and "testing_11length.txt" refer to the samples with peptides of 10 length and 11 length correspondently.  <br>
+2) Back to the directory "codes". Run in command line:<br>
      "python att_weight.py dup_0/config.json". The average attention weights of the group will be output to "dup_0".
