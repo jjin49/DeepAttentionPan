@@ -20,14 +20,14 @@ e.g. 1) In the file "dup_0/config.json", the "test_file" refers to the file name
 
 e.g. 1) Build a new folder "dup_1" inside the folder 'codes'. "dup_1" will be the folder where the algorithm reads the file storing parameters and outputs the trained models. <br>
      2) Copy the "config.json" in "codes/dup_0" to "dup_1". "config.json" is the file storing useful parameters and the source paths of input data.<br>
-     3) In the file "config.json", change the content of attribute "working_dir" to be "dup_1". You are free to change other parameters to test the effects. The "data_file" refers to the file name of the training set, e.g, "training_set.txt". All the data files should be stored in the folder "dataset".
-     4) Back to the directory "codes". Run in the command line: 
+     3) In the file "config.json", change the content of attribute "working_dir" to be "dup_1". You are free to change other parameters to test the effects. The "data_file" refers to the file name of the training set, e.g, "training_set.txt". All the data files should be stored in the folder "dataset".<br>
+     4) Back to the directory "codes". Run in the command line: <br>
         "python train.py dup_1/config.json". After the training process finishing, the networks will be output to "dup_1".
 
 ### binding position importance investigation using attention mechanism
 
-6. Output the attention weights of certain group of peptides. You can also use the "att_weight.py" to output the attention weightS of certain group of peptides from the trained model(e.g. the model stored in the "dup_0").
+Output the attention weights of certain group of peptides. You can also use the "att_weight.py" to output the attention weightS of certain group of peptides from the trained model(e.g. the model stored in the "dup_0").
 
-e.g. 1) In the "dup_0", change the "test_file" to the name of the file containing the group of the samples that you want to output the average positional attention weights. In the folder "dataset", "testing_9length.txt" contains all the samples with peptides of 9 length in the testing set. And "testing_10length.txt" and "testing_11length.txt" refer to the samples with peptides of 10 length and 11 length correspondently.  
-     2) Back to the directory "codes". Run in command line:
+e.g. 1) In the "dup_0", change the "test_file" to the name of the file containing the group of the samples that you want to output the average positional attention weights. In the folder "dataset", "testing_9length.txt" contains all the samples with peptides of 9 length in the testing set. And "testing_10length.txt" and "testing_11length.txt" refer to the samples with peptides of 10 length and 11 length correspondently.  <br>
+     2) Back to the directory "codes". Run in command line:<br>
      "python att_weight.py dup_0/config.json". The average attention weights of the group will be output to "dup_0".
