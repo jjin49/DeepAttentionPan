@@ -37,9 +37,9 @@ To output the attention weights of certain group of peptides,  you can also use 
  ### testing on single hla-peptide pair input from the command line
  User can manually input a hla-peptide pair from the command line, and inspect the prediction result immediately.
  
- 1) in the folder "codes", run in the command line:<br>
+ 1) In the folder "codes", run in the command line:<br>
         python single_test.py  HLA-A*02:01 QIDVEKKIV
- 2) then the program will directly output the prediction result of the hla-peptide pair in the command line.
+ 2) Then the program will directly output the prediction result of the hla-peptide pair in the command line.
  
  
 
