@@ -4,7 +4,7 @@
 
 <img src="deepattentpan.jpg" height="300px">
 
-- Usage: the codes can be used to train our models, output results on the testing set, output positional attention weights for chosen group of peptides.
+- Usage: the codes can be used to train our models, output results on the testing set, output positional attention weights for chosen group of peptides.  And  they also can be used to test on single hla-peptide pair input from the command line.
 
 - Please download the full folder of "DeepAttentionPan_Code" to run the programs, or you may need to configure some directory paths.
 
@@ -33,3 +33,13 @@ To output the attention weights of certain group of peptides,  you can also use 
 1) In the "dup_0", change the "test_file" to the name of the file containing the group of the samples that you want to output the average positional attention weights. In the folder "dataset", "testing_9length.txt" contains all the samples with peptides of 9 length in the testing set. And "testing_10length.txt" and "testing_11length.txt" refer to the samples with peptides of 10 length and 11 length correspondently.  <br>
 2) Back to the directory "codes". Run in command line:<br>
      "python att_weight.py dup_0/config.json". The average attention weights of the group will be output to "dup_0".
+ 
+ ### testing on single hla-peptide pair input from the command line
+ User can manually input a hla-peptide pair from the command line, and inspect the prediction result immediately.
+ 
+ 1) in the folder "codes", run in the command line:<br>
+        python single_test.py  HLA-A*02:01 QIDVEKKIV
+ 2) then the program will directly output the prediction result of the hla-peptide pair in the command line.
+ 
+ 
+
