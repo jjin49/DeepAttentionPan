@@ -1,6 +1,8 @@
-#  DeepAttentionPan: 
+#  DeepAttentionPan
 
 ### Deep learning prediction of MHC-I peptide binding with attention mechanism
+
+## [Machine Learning and Evolution Laboratory](http://mleg.cse.sc.edu), [University of South Carolina](http://www.sc.edu)
 
 <img src="deepattentpan.jpg" height="300px">
 
