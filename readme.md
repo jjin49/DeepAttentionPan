@@ -34,12 +34,11 @@ To output the attention weights of certain group of peptides,  you can also use 
 2) Back to the directory "codes". Run in command line:<br>
      "python att_weight.py dup_0/config.json". The average attention weights of the group will be output to "dup_0".
  
- ### testing on single hla-peptide pair input from the command line
- User can manually input a hla-peptide pair from the command line, and inspect the prediction result immediately.
+ ### predict binding affinity of a single hla-peptide pair input from the command line
  
  1) In the folder "codes", run in the command line:<br>
         python single_test.py  HLA-A*02:01 QIDVEKKIV
- 2) Then the program will directly output the prediction result of the hla-peptide pair in the command line.
+ 2) Then the program will directly output the binding affinity of the hla-peptide pair
  
  
 
