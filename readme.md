@@ -10,6 +10,16 @@
 
 - Platform: Python 3.6, need to use GPU to train,test and ouput attention weights.
 
+
+ ### Predict binding affinity of a single hla-peptide pair input from the command line
+ To use our pre-trained pan-specific model for predicting binding affinity:
+ suppose you want to predict binding affinity of HLA-A*02:01 with peptide QIDVEKKIV, then:
+ 
+ 1) In the folder "codes", run in the command line:<br>
+        python single_test.py  HLA-A*02:01 QIDVEKKIV
+  the program will directly output the binding affinity of the hla-peptide pair
+ 
+
 ### Testing: 
 
 our final ensemble prediction model is stored in the "dup_0" folder, suppose now we want to output testing results of the final model in "dup_0".
@@ -34,11 +44,6 @@ To output the attention weights of certain group of peptides,  you can also use 
 2) Back to the directory "codes". Run in command line:<br>
      "python att_weight.py dup_0/config.json". The average attention weights of the group will be output to "dup_0".
  
- ### Predict binding affinity of a single hla-peptide pair input from the command line
- 
- 1) In the folder "codes", run in the command line:<br>
-        python single_test.py  HLA-A*02:01 QIDVEKKIV
- 2) Then the program will directly output the binding affinity of the hla-peptide pair
- 
+
  
 
