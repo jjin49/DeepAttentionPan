@@ -4,11 +4,15 @@
 
 <img src="deepattentpan.jpg" height="300px">
 
+
+
 - Usage: the codes can be used to train our models, output results on the testing set, output positional attention weights for chosen group of peptides.  And  they also can be used to test on single hla-peptide pair input from the command line.
 
 - Please download the full folder of "DeepAttentionPan_Code" to run the programs, or you may need to configure some directory paths.
 
-- Platform: Python 3.6, need to use GPU to train,test and ouput attention weights.
+- Platform: Python 3.6, this version of code needs to use GPU to train,test and ouput attention weights.
+However, a CPU version prediction code will be provided upon reasonable request.
+Pytorch is required to be installed before running our code. https://pytorch.org/get-started/locally/
 
 
  ### Predict binding affinity of a single hla-peptide pair input from the command line
@@ -45,5 +49,5 @@ To output the attention weights of certain group of peptides,  you can also use 
      "python att_weight.py dup_0/config.json". The average attention weights of the group will be output to "dup_0".
  
 
- 
+ Contact: Jing jin (jingj@email.sc.edu)
 
