@@ -2,6 +2,9 @@
 
 ### Deep learning prediction of MHC-I peptide binding with attention mechanism
 
+By Jing Jin at Machine Learning and Evolution Laboratory<br>
+University of South Carolina
+
 <img src="deepattentpan.jpg" height="300px">
 
 Cite our work: <br>
