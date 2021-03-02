@@ -7,6 +7,7 @@
 Cite our work: <br>
 Jin, J., Liu, Z., Nasiri, A., Cui, Y., Louis, S., Zhang, A., ... & Hu, J. (2021). Deep learning pan‐specific model for interpretable MHC‐I peptide binding prediction with improved attention mechanism. Proteins: Structure, Function, and Bioinformatics.
 
+### Introduction
 
 - Usage: the codes can be used to train our models, output results on the testing set, output positional attention weights for chosen group of peptides.  And  they also can be used to test on single hla-peptide pair input from the command line.
 
